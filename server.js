@@ -13,7 +13,7 @@ const mv = require("mv");
 
 
 const saltRounds = 10;
-const port = process.env.PORT || 3001
+const port = process.env.PORT
 
 
 app.use(express.json())
@@ -25,10 +25,10 @@ app.use(cors({
 }));
 
 var db_config = {
-    host: 'localhost',
-      user: 'root',
-      password: '',
-      database: 'alaa_store'
+      host: 'eu-cdbr-west-02.cleardb.net',
+      user: 'b1d0a3314f739d',
+      password: '61f9ae86',
+      database: 'heroku_66038776d72a1ed'
   };
 
 
